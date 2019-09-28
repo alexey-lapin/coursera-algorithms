@@ -9,6 +9,7 @@ pluginManagement {
 
 rootProject.name = "coursera-algs4-part1"
 
+include("w1-percolation")
 include("w2-queues")
 include("w3-collinear-points")
 include("w4-sliding-puzzle")
