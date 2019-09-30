@@ -1,1 +1,1 @@
-Solutions for Algorithms part 1 course on Coursera
+Solutions for problems of Algorithms part 1 course on Coursera
