@@ -1,21 +1,26 @@
-/******************************************************************************
- *  Compilation:  javac PercolationVisualizer.java
- *  Execution:    java PercolationVisualizer input.txt
- *  Dependencies: Percolation.java
+/*
+ * MIT License
  *
- *  This program takes the name of a file as a command-line argument.
- *  From that file, it
+ * Copyright (c) 2019 - present Alexey Lapin
  *
- *    - Reads the grid size n of the percolation system.
- *    - Creates an n-by-n grid of sites (intially all blocked)
- *    - Reads in a sequence of sites (row i, column j) to open.
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
  *
- *  After each site is opened, it draws full sites in light blue,
- *  open sites (that aren't full) in white, and blocked sites in black,
- *  with with site (1, 1) in the upper left-hand corner.
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
  *
- ******************************************************************************/
-
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
 
@@ -83,4 +88,3 @@ public class PercolationVisualizer {
         }
     }
 }
-
