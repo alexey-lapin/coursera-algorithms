@@ -2,6 +2,7 @@ pluginManagement {
     plugins {
         kotlin("jvm") version "1.3.50"
         id("com.diffplug.gradle.spotless") version "3.24.3"
+        id("com.github.johnrengelman.shadow") version "5.1.0"
         id("com.github.spotbugs") version "2.0.0"
         id("me.champeau.gradle.jmh") version "0.4.8"
     }
