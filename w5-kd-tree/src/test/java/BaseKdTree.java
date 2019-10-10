@@ -21,10 +21,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Point2D;
 
-public class BaseKdTree {
+class BaseKdTree {
 
     static Implementations fromResource(String resource) {
         In in = new In(NearestNeighborVisualizer.class.getResource(resource));

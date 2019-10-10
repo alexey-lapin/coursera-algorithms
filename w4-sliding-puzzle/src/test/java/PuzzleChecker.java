@@ -1,29 +1,26 @@
-/******************************************************************************
- *  Compilation:  javac-algs4 PuzzleChecker.java
- *  Execution:    java-algs4 PuzzleChecker filename1.txt filename2.txt ...
- *  Dependencies: Board.java Solver.java
+/*
+ * MIT License
  *
- *  This program creates an initial board from each filename specified
- *  on the command line and finds the minimum number of moves to
- *  reach the goal state.
+ * Copyright (c) 2019 - present Alexey Lapin
  *
- *  % java-algs4 PuzzleChecker puzzle*.txt
- *  puzzle00.txt: 0
- *  puzzle01.txt: 1
- *  puzzle02.txt: 2
- *  puzzle03.txt: 3
- *  puzzle04.txt: 4
- *  puzzle05.txt: 5
- *  puzzle06.txt: 6
- *  ...
- *  puzzle3x3-impossible: -1
- *  ...
- *  puzzle42.txt: 42
- *  puzzle43.txt: 43
- *  puzzle44.txt: 44
- *  puzzle45.txt: 45
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
  *
- ******************************************************************************/
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
