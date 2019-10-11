@@ -48,9 +48,7 @@ subprojects {
         }
 
         register<Zip>("zip") {
-            from("src/main/java")
-            @Suppress("UNCHECKED_CAST")
-            include(project.extra["zipFiles"] as List<String>)
+            from(sourceSets.main.get().allSource)
             archiveFileName.set(project.extra["zipName"] as String)
         }
 
