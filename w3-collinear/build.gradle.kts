@@ -3,8 +3,6 @@ plugins {
     id("me.champeau.gradle.jmh")
 }
 
-extra["zipName"] = "collinear.zip"
-
 dependencies {
     jmh("org.openjdk.jmh:jmh-core:1.21") {
         exclude(module = "jopt-simple")
@@ -16,4 +14,10 @@ jmh {
     jmhVersion = "1.21"
     duplicateClassesStrategy = DuplicatesStrategy.WARN
     fork = 0
+}
+
+tasks {
+    named("checkstyleJmh").configure {
+        enabled = false
+    }
 }

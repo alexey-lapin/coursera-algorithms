@@ -49,7 +49,7 @@ subprojects {
 
         register<Zip>("zip") {
             from(sourceSets.main.get().allSource)
-            archiveFileName.set(project.extra["zipName"] as String)
+            archiveFileName.set("${project.name.substringAfter("-")}.zip")
         }
 
         register("zipWithCheck") {
